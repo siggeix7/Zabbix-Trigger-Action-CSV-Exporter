@@ -11,7 +11,7 @@ Questo script Python utilizza le API JSON-RPC di **Zabbix** (senza libreria este
    * Esegue una chiamata `user.login` verso
      `http://127.0.0.1/zabbix/api_jsonrpc.php`
    * Ottiene un token e lo usa tramite header HTTP
-     `Authorization: Bearer <token>` (compatibile con Zabbix 7.2+).
+     `Authorization: Bearer <token>` (compatibile con Zabbix 7.0+).
 
 2. **Recupero delle Trigger Actions**
 
